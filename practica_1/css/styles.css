@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 80%;
+    min-width: 80px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.header {
+    height: 80px;
+    padding: 0 20px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    border-bottom: 3px dashed black;
+}
+
+.header h1 {
+    line-height: 80px;
+    font-size: 25px;
+}
+
+.nav {
+    background-color: lightblue;
+    border-bottom: 1px solid black;
+}
+
+.nav ul li {
+    display: inline-block;
+    padding: 14px 10px;
+}
+
+.content {
+    background-color: darkgreen;
+    padding: 20px 20px;
+    width: 70%;
+    min-height: 500px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.aside {
+    background-color: orange;
+    width: 30%;
+    min-height: 500px;
+    padding: 10px 10px 0 10px;
+    box-sizing: border-box;
+    float: right;
+}
+
+#busqueda {
+    width: 100%;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.article {
+    color: white;
+    border-bottom: 1px solid white;
+    padding: 5px 0;
+    margin-bottom: 5px;
+}
+
+.article:first-child {
+    border-top: 1px solid white;
+}
+
+.footer {
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+
+@media screen and (max-width: 992px) {
+    .header {
+        font-size: 70%;
+    }
+
+    .aside {
+        font-size: 70%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .header {
+        font-size: 70%;
+    }
+
+    .header h1 {
+        max-width: 500px;
+        margin: auto;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .nav {
+        font-size: 90%;
+    }
+
+    .nav ul li {
+        line-height: normal;
+    }
+
+    .content {
+        width: 60%;
+        font-size: 70%;
+    }
+
+    .aside {
+        width: 40%;
+    }
+
+    .aside h2 {
+        max-width: 100px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .footer {
+        font-size: 70%;
+    }
+}
