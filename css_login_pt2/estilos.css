@@ -1,0 +1,36 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor-grid {
+    display: grid;
+    grid-template-columns: auto 45%;
+}
+
+.lado-izquierdo {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://lumen.uv.mx/resources/files/images/2023/10/10/9083/2e8388e1-8360-4d1e-8231-6f6168a20ec2.jpg');
+    height: 100vh;
+    min-height: 500px;
+}
+
+.lado-derecho {
+    display: grid;
+    place-content: center stretch;
+}
+
+.lado-derecho .card {
+    max-width: 500px;
+}
+
+@media (max-width: 768px) {
+    .lado-izquierdo {
+        display: none;
+    }
+
+    .lado-derecho {
+        margin-top: 50px;
+        grid-column: 1 / span 2;
+    }
+}
