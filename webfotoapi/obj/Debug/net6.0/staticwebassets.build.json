@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "tuxd2CS3VF3rHg2So7wIQuEFSzc4U0L6RDe1LZ8MYOo=",
+  "Source": "webapifoto",
+  "BasePath": "_content/webapifoto",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "webapifoto\\wwwroot",
+      "Source": "webapifoto",
+      "ContentRoot": "C:\\Users\\aiwass\\source\\repos\\webapifoto\\wwwroot\\",
+      "BasePath": "_content/webapifoto",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\aiwass\\source\\repos\\webapifoto\\wwwroot\\files\\readme.txt",
+      "SourceId": "webapifoto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\aiwass\\source\\repos\\webapifoto\\wwwroot\\",
+      "BasePath": "_content/webapifoto",
+      "RelativePath": "files/readme.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\readme.txt"
+    }
+  ]
+}
